@@ -1,0 +1,19 @@
+// 1.select your folder-> open in cmd or terminal
+// 2.type npm init - y in terminal to create envirnoment to run the JS code in server side 
+// 3. create Server.js file 
+// 4. to run the js code in server side we need express, install by below command to type in terminal
+npm i express
+
+//5 run your code 
+
+// for save your time to rerun the code again and agani use nodemon
+npm i nodemon
+// setup your nodemon follow below commands-:
+a) goto package.json find therse "scripts" folder
+b) inside "scripts" folder add 2 below lines
+"start":"node Server.js",
+"dev":"nodemon Server.js"
+for run your project use npm run dev now you are ready no need run your code again and again
+
+6) to install node_modules folder use below command
+npm i
